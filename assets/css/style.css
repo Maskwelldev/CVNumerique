@@ -1,0 +1,34 @@
+h1, h2, h3, h4 {
+    font-family: Roboto;
+    color: #9f45e9; 
+}
+
+.card-container {
+        box-shadow: 0 1px 1px 0px black;
+        transition: all 0.8s;
+}
+
+.card-container:hover {
+    box-shadow: 0 70px 63px -60px black;
+    /* transform: rotate(7deg); */
+}
+
+.card img {
+    transition: all 0.8s;
+}
+
+
+.card:hover img {
+    /* transform: scale(2); */
+    transform: translate(52%, 40%) scale(2);
+    }
+
+.img-container {
+    overflow: hidden;
+}
+
+.card {
+    overflow: hidden;
+}
+
+
