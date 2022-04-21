@@ -1,6 +1,6 @@
 h1, h2, h3, h4 {
     font-family: Roboto;
-    color: #9f45e9; 
+    color: #603584; 
 }
 
 .card-container {
@@ -9,14 +9,13 @@ h1, h2, h3, h4 {
 }
 
 .card-container:hover {
-    box-shadow: 0 70px 63px -60px black;
+    box-shadow: 0 70px 63px -60px #603584;
     /* transform: rotate(7deg); */
 }
 
 .card img {
     transition: all 0.8s;
 }
-
 
 .card:hover img {
     /* transform: scale(2); */
@@ -31,4 +30,10 @@ h1, h2, h3, h4 {
     overflow: hidden;
 }
 
+h1 {
 
+}
+
+.button-color {
+    background-color: rgb(170, 27, 175) !important
+}
