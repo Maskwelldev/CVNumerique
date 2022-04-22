@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <!-- Required meta tags -->
@@ -12,6 +12,7 @@
     <link rel="stylesheet"
         href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="/assets/css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b66b96b3cd.js" crossorigin="anonymous"></script>
     <title>Hello, world!</title>
 </head>
 
@@ -20,29 +21,40 @@
 
         <!-- header -->
         <div class="row">
-            <div class="col-xs-12 mb-5">
-                <nav class="navbar navbar-light bg-light">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="material-symbols-outlined">menu</span>
+            <!-- <div id="petales-de-rose">
+
+            </div> -->
+            <div class="col-xs-12">
+                <!-- <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <a href="#" class="navbar-brand"><span class="material-symbols-outlined material-symbols-outlined1">code</span></a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
                         </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <div class="navbar-nav">
+                                <a href="#anchor-hi" class="nav-item nav-link active text-white">Hello_</a>
+                                <a href="#anchor-skills" class="nav-item nav-link text-white">Resume_</a>
+                                <a href="#" class="nav-item nav-link text-white">Portfolio_</a>
+                                <a href="#anchor-contact" class="nav-item nav-link text-white">Reports</a>
+                            </div>
+                        </div>
                     </div>
+                </nav> -->
+
+                <!-- navbar -->
+                <nav class="navbar justify-content-around mb-5 rounded-bottom">
+                    <span class="material-symbols-outlined material-symbols-outlined1">code</span>
+                    <a class="navbar-brand text-white" href="#anchor-hi">Hello_</a>
+                    <a class="navbar-brand text-white" href="#anchor-skills">Resume_</a>
+                    <a class="navbar-brand text-white" href="#anchor-portfolio">Portfolio_</a>
+                    <a class="navbar-brand text-white" href="#anchor-contact">Contact_</a>
                 </nav>
-                <div class="collapse" id="navbarToggleExternalContent2">
-                    <div class="bg-light shadow-3 p-4">
-                        <button class="btn btn-link btn-block border-bottom m-0 text-decoration-none">Hello_</button>
-                        <button class="btn btn-link btn-block border-bottom m-0 text-decoration-none">Resume_</button>
-                        <button class="btn btn-link btn-block m-0 text-decoration-none">Portfolio_</button>
-                        <button class="btn btn-link btn-block m-0 text-decoration-none">Contact_</button>
-                    </div>
-                </div>
             </div>
             <!-- main -->
             <!-- first section -->
             <div class="col-md-6 col-xs-12">
-                <div class="card card-container m-auto" style="width: 18rem;">
+                <div class="card card-container mt-5 m-auto" style="width: 18rem;">
                     <div class="img-container">
                         <img src="/assets/img/putin.jpg" class="card-img-top" alt="my photo">
                     </div>
@@ -51,6 +63,17 @@
                         <p class="card-text">front-end developper</p>
                         <button type="button" class="btn btn-primary button-color" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">Get your chance !</button>
+                    </div>
+                    <div class="icons card-icons">
+                        <a href="https://www.instagram.com/lolcatspicz/?hl=fr" class="link-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/cats" class="link-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="link-icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </div>
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
@@ -67,7 +90,7 @@
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
                                         data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Call</button>
+                                    <button type="button" class="btn btn-primary button-color">Call</button>
                                 </div>
                             </div>
                         </div>
@@ -75,16 +98,16 @@
                 </div>
             </div>
             <div class="col-md-6 col-xs-12 mt-5">
-                <h1>Minou Minette_</h1>
-                <p>front-end developer</p>
+                <h1 class="typewriter">Minou Minette_</h1>
+                <p class="mt-5">Front End Developer_</p>
                 <p><span class="material-symbols-outlined">person</span> 34 years old</p>
-                <p><span class="material-symbols-outlined">call</span> 0695703397</p>
+                <p><span class="material-symbols-outlined">call</span> 06 95 70 33 97</p>
                 <p><span class="material-symbols-outlined">mail</span> minou-minette@gmail.com</p>
                 <p><span class="material-symbols-outlined">home</span> La chatterie, 42 rue du poil, 80000 AMIENS</p>
             </div>
         </div>
         <div class="col-xs-12 mt-5 mb-5">
-            <h2>Hi_</h2>
+            <h2 id="anchor-hi">Hi_</h2>
             <p>I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation,
                 layout and programming to UX and SEO. Skilled at writing well-designed, testable and efficient code
                 using current best practices in Web development. Fast learner, hard worker and team player who is
@@ -92,7 +115,7 @@
         </div>
 
         <div class="row">
-            <h2>Skills</h2>
+            <h2 id="anchor-skills">Skills_</h2>
             <div class="col-md-6 col-xs-12">
                 <div class="progress-container">
                     <p>HTML 5</p>
@@ -127,8 +150,8 @@
                 <div class="progress-container">
                     <p>GIT</p>
                     <div class="progress mb-3">
-                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100">60%</div>
+                        <div class="progress-bar progress-bar-color" role="progressbar" style="width: 60%;"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
                     </div>
                 </div>
                 <div class="progress-container">
@@ -154,49 +177,75 @@
                 </div>
             </div>
         </div>
-        <!-- footer -->
         <div class="row">
-            <div class="col-xs-12">
-                <form>
-                    <div class="form-group mt-5">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Example select</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect2">Example multiple select</label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                </form>
-
+            <h2 class="mt-5 mb-3" id="anchor-portfolio">Portfolio_</h2>
+            <div class="col-xs-12 col-md-4">
+                    <div class="section-portfolio">
+                    <img src="/assets/img/portfolio_1.webp" class="img-fluid rounded mx-auto shadow" alt="Mon premier portfolio">
+                    <h5 class=mt-3>Gasper, web application</h5>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="section-portfolio">
+                    <img src="/assets/img/portfolio_2.webp" class="img-fluid rounded mx-auto shadow" alt="Mon deuxième portfolio">
+                    <h5 class=mt-3>Tangle, UI/UX conception</h5>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="section-portfolio">
+                    <img src="/assets/img/portfolio_3.webp" class="img-fluid rounded mx-auto shadow" alt="Mon troisième portfolio">
+                    <h5 class=mt-3>Tenangkan UI</h5>
+                </div>
             </div>
         </div>
-    </div>
+        <!-- contact -->
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="mt-5">Contact_</h2>
+                <form id="contact-form" name="contact-form">
+                    <div class="form-group shadow-sm mt-2">
+                        <label for="exampleFormControlInput1">Your name</label>
+                        <input type="text" class="form-control mt-1" id="exampleFormControlInput1"
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="form-group shadow-sm mt-2">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control mt-1" id="exampleFormControlInput1"
+                            placeholder="Enter your e-mail">
+                    </div>
+                    <div class="form-group shadow-sm mt-2">
+                        <label for="exampleFormControlInput1">Object</label>
+                        <input type="email" class="form-control mt-1" id="exampleFormControlInput1"
+                            placeholder="Object">
+                    </div>
+                    <div class="form-group shadow-sm mt-2">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control mt-1" id="exampleFormControlTextarea1" rows="10"
+                            placeholder="Your message"></textarea>
+                    </div>
+                    <div class="text-center mt-3 mb-3 text-md-left">
+                        <a class="btn button-color text-white" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <footer class="text-center text-white text-lg-start mb-5" id="anchor-contact">
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: #FF4081;">
+                    © 2022 Copyright:
+                    <a class="text-white" href="https://mdbootstrap.com/">Maxime RATTEZ</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <!-- <script type="text/javascript" src="/assets/javaScript/script.js"></script> -->
 </body>
 
 </html>
